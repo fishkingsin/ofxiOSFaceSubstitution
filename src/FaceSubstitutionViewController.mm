@@ -179,14 +179,14 @@
 }
 
 UIImage * UIImageFromOFImage( ofImage & img ){
-    int width = img.width;
-    int height =img.height;
+    int width = img.getWidth();
+    int height =img.getHeight();
     
     int nrOfColorComponents = 1;
     
-    if (img.type == OF_IMAGE_GRAYSCALE) nrOfColorComponents = 1;
-    else if (img.type == OF_IMAGE_COLOR) nrOfColorComponents = 3;
-    else if (img.type == OF_IMAGE_COLOR_ALPHA) nrOfColorComponents = 4;
+    if (img.getImageType() == OF_IMAGE_GRAYSCALE) nrOfColorComponents = 1;
+    else if (img.getImageType() == OF_IMAGE_COLOR) nrOfColorComponents = 3;
+    else if (img.getImageType() == OF_IMAGE_COLOR_ALPHA) nrOfColorComponents = 4;
     
     int bitsPerColorComponent = 8;
     int rawImageDataLength = width * height * nrOfColorComponents;

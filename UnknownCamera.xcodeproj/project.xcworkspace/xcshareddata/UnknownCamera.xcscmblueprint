@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B6289E511A5D59CDE052DBF12D6B62264604FF90",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A4D0373C699384D3146D509694B516AB9C7B5AD6" : 0,
+    "B6289E511A5D59CDE052DBF12D6B62264604FF90" : 0,
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : 0,
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7F1336C7-341C-446C-957B-F1C3EA619952",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A4D0373C699384D3146D509694B516AB9C7B5AD6" : "..\/..\/addons\/ofxFaceTracker",
+    "B6289E511A5D59CDE052DBF12D6B62264604FF90" : "UnknownCamera\/",
+    "37526DA425E5430474A14FBFA1BC4525160B5FC1" : "..\/..\/addons\/ofxCv",
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : "..\/..\/addons\/ofxJSON"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UnknownCamera",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UnknownCamera.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kylemcdonald\/ofxCv.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37526DA425E5430474A14FBFA1BC4525160B5FC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jefftimesten\/ofxJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DB7C332A3A89035E93556A2A38BF414005BA671"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kylemcdonald\/ofxFaceTracker.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4D0373C699384D3146D509694B516AB9C7B5AD6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/RyotaKatoh\/ofxiOSFaceSubstitution.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6289E511A5D59CDE052DBF12D6B62264604FF90"
+    }
+  ]
+}

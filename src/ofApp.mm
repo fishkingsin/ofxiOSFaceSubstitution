@@ -236,7 +236,7 @@ void ofApp::maskTakenPhoto(ofImage &input){
     setMaskFaceTraker();
     
     // change image type. OF_IMAGE_COLOR_ALPHA => OF_IMAGE_COLOR
-    if(input.type == OF_IMAGE_COLOR_ALPHA){
+    if(input.getImageType() == OF_IMAGE_COLOR_ALPHA){
     
         input.setImageType(OF_IMAGE_COLOR);
         
@@ -355,7 +355,7 @@ void ofApp::maskTakenPhotoforDebug(ofImage &input){
     setMaskTrackerforDebug();
     
     // change image type. OF_IMAGE_COLOR_ALPHA => OF_IMAGE_COLOR
-    if(input.type == OF_IMAGE_COLOR_ALPHA){
+    if(input.getImageType() == OF_IMAGE_COLOR_ALPHA){
         
         input.setImageType(OF_IMAGE_COLOR);
         
